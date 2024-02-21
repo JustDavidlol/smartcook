@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Bruno+Ace+SC&family=DM+Sans&family=Fredoka:wght@300..700&family=Roboto+Mono&display=swap');
+
+
+.box {
+    width: 100%;
+    height: 84px;
+}
+  
+  .box .rectangle {
+    position: fixed;
+    width: 100%;
+    height: 84px;
+    top: 0;
+    left: 0;
+    background-color: #e19e23;
+}
+
+.food {
+    width: 63px;
+    height: 60px;
+}
+  
+  .image .food {
+    position: fixed;
+    width: 63px;
+    height: 60px;
+    top: 10px;
+    left: 15px;
+    object-fit: cover;
+    z-index: 3;
+}
+
+  
+.label .text-wrapper {
+    position: fixed;
+    width: 154px;
+    top: 0;
+    left: 120px;
+    font-family: "JetBrains Mono-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+  
+  .label1 .text-wrapper1 {
+    position: fixed;
+    width: 132px;
+    top: 30px;
+    left: 100px;
+    font-family: "Josefin Slab-SemiBoldItalic", Helvetica;
+    font-weight: 600;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+    
+}
+
+
+.circle .ellipse {
+    position: fixed;
+    width: 69px;
+    height: 66px;
+    top: 10px;
+    left: 15px;
+    background-color: #f9f9f9;
+    border-radius: 34.5px/33px;
+    z-index: 2;
+}
+
+
+
+.circle1 .ellipse1 {
+    position: fixed;
+    width: 79px;
+    height: 76px;
+    top: 5px;
+    left: 10px;
+    background-color: #ebebeb;
+    border-radius: 39.5px/38px;
+}
+
+
+nav {
+    overflow: hidden;
+    margin-left: -20px; /* Posunutí menu doleva */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #e9e9e9;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black; /* Černá barva textu v rozbalovacím menu */
+}
+
+.dropdown-content a {
+    border: #31D0A0;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.label2 .recipes {
+    position: fixed;
+    top: 9px;
+    left: 250px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.label2 .text-wrapper2 {
+    color: #0f0f0f;
+    left: 200px;
+}
+
+.label2 .span {
+    color: #df0000;
+}
+
+.grid {
+    display:grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .grid > div {
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0.25em;
+}
+
+body {
+    background: linear-gradient(0, rgb(255, 222, 176), #ffb049) fixed;
+
+}
+
+
+.recipe {
+    width: 18%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffd000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.858);
+}
+
+
+.recipe-content img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.recipe-content h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+select {
+    border-radius: 8px;
+    border: 15px;
+}
+
+.container1 {
+    background-color: orange;
+    padding: 20px;
+}
+  
+table {
+    width: 100%;
+}
+  
+th, td {
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+  
+select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #e19e23;
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid #ae7a1a;
+    top: 17vh;
+    position: absolute;
+}
+
+a {
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: "Fredoka", sans-serif;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Fredoka", sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p, p1 {
+    font-family: "Fredoka", sans-serif;
+}
+
+footer {
+    background-color: #f79731;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
