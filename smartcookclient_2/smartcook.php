@@ -130,6 +130,7 @@
             border-radius: 10px;
             width: calc(20% - 20px); 
             text-align: center;
+            cursor: pointer;
         }
     .recipe-container :hover {
         background-color: #f5ad27; transition: 0.3s;
