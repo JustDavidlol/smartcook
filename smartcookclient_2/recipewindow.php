@@ -66,7 +66,7 @@
 
         if (!empty($name) && !empty($author)) {
             echo "<div class='foodborder'>$name</div>";
-            echo "<div class='nameborder'>By $author</p>";
+            echo "<div class='nameborder'>$author</p>";
         } else {
             echo "<p>Recipe not found.</p>";
         }
