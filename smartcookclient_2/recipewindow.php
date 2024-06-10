@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="navrh3.css">
     <title>Recipe</title>
     <style>
-       .button {
+        .button {
         display: flex;
         margin-top: 20px;
         font-family: "Fredoka", sans-serif;
@@ -17,14 +17,14 @@
         position: absolute;
         border: 2px solid #ae7a1a;
         padding: 10px;
+        transition: background-color 0.3s, padding 0.3s;
        }
 
-       .button :hover {
+       .button:hover {
         background-color: #f5ad27;
-        padding: 5px;
-        transition: 0.3s;
-        
+        padding: 15px;
        }
+        
         
        .foodborder {
         text-shadow:rgb(166, 117, 26) 2px 1px 2px;
