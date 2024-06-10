@@ -135,6 +135,41 @@
         background-color: #f5ad27; transition: 0.3s;
     }
 
+        .label .text-wrapper {
+    position: fixed;
+    width: 154px;
+    top: 0;
+    left: 120px;
+    font-family: "JetBrains Mono-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+  
+  .label1 .text-wrapper1 {
+    position: fixed;
+    width: 132px;
+    top: 30px;
+    left: 100px;
+    font-family: "Josefin Slab-SemiBoldItalic", Helvetica;
+    font-weight: 600;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+
+}
+
+    
 </style>
 
 </body>
